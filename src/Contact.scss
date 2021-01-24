@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+$ivory: rgb(240, 229, 222);
+$mint: rgb(171, 208, 206);
+$charcoal: rgb(124, 120, 119);
+$gray: rgb(217, 212, 207);
+
+.Contact {
+  margin: 5rem 3rem 5rem 3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .Contact-content {
+    display: flex;
+    
+    ul {
+      text-align: center;
+      list-style: none;
+
+      margin-left: -3.4rem;
+      margin-top: 0;
+
+      color: rgb(99, 96, 95);
+      font-family: 'Noto Sans KR', sans-serif;
+      font-size: 1rem;
+
+      li {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0.5rem;
+
+        a {
+          &:link {
+            color: rgb(99, 96, 95);
+          }
+
+          &:visited {
+            color: rgb(99, 96, 95);
+          }
+        }
+
+        svg {
+          font-size: 1.3rem;
+          margin-top: 0.1rem;
+          margin-right: 0.3rem;
+
+          &:hover {
+            color: rgb(128, 124, 123);
+          }
+        }
+      }
+    }
+  }
+}

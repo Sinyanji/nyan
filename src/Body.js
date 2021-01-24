@@ -4,6 +4,8 @@ import Profile from './Profile';
 import PrivateLesson from './PrivateLesson';
 
 import './Body.scss';
+import Club from './Club';
+import Contact from './Contact';
 
 const Body = () => {
   return (
@@ -13,6 +15,10 @@ const Body = () => {
       <Education />
       <hr />
       <PrivateLesson />
+      <hr />
+      <Club />
+      <hr />
+      <Contact />
     </div>
   );
 };
