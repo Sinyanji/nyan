@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+$ivory: rgb(240, 229, 222);
+$mint: rgb(171, 208, 206);
+$charcoal: rgb(124, 120, 119);
+$gray: rgb(217, 212, 207);
+
+.Header {
+  width: 100vw;
+  height: 25rem;
+  background: $mint;
+
+  display: flex;
+
+  .text {
+    color: white;
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    
+    margin: 3rem 0 0 5rem;
+  }
+}
